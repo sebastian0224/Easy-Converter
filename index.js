@@ -8,7 +8,7 @@ const port = 3000;
 
 // API configuration
 const API_URL = "https://v6.exchangerate-api.com/v6/";
-const APIkey = "882b14a7b3a4bdfe19d310aa";
+const APIkey = "Your_API_key";
 
 // Middleware for serving static files and parsing URL-encoded data
 app.use(express.static("public"));
