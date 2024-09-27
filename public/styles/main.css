@@ -1,0 +1,44 @@
+/* Style for the result box */
+.result-box {
+    background-color: #f8f9fa; /* Soft background color */
+    border-radius: 15px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-size: 1.8rem;        
+    color: #007bff;           
+    max-width: 400px;         
+    padding: 20px;            
+}
+
+/* Style for the title */
+.styled-title {
+    font-size: 3rem;             
+    font-weight: bold;           
+    color: #007bff;              
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 0.5rem;        
+    letter-spacing: 2px;         
+    background: linear-gradient(90deg, #007bff, #28a745); /* Gradient */
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(120deg, #f8f9fa, #cbd7e4);
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the form */
+.form-p {
+    background-color: #f8f9fa; /* Soft background color */
+    border-radius: 15px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-size: 1.2rem;        
+    color: #007bff;         
+    padding: 20px;    
+}
